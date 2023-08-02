@@ -51,13 +51,13 @@ Map studentDetails = {'Name': "Johnny", 'age': 25, 'Id': 212472};
 
   List bestFriend = ["Nayemm", "Shakib", "Adnan", "Jahid", "Johnny"];
 
-  // final bestresust = bestFriend.length;
+  final bestresust = bestFriend.length;
   // final bestresust = bestFriend.first;
   // final bestresust = bestFriend.last;
   // final bestresust = bestFriend.single;
   // final bestresust = bestFriend.isEmpty;
   // final bestresust = bestFriend.isNotEmpty;
-  final bestresust = bestFriend.reversed;
+  // final bestresust = bestFriend.reversed;
 
   print(bestresust);
 
