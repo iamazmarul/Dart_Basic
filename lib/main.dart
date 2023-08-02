@@ -92,7 +92,7 @@ void main() {
   // final mapresult = Collageid.keys;
   // final mapresult = Collageid.length;
   // final mapresult = Collageid.remove(2);
-
+  Collageid [5] = "jihyg";
   // print(mapresult);
   print(Collageid);
 }
