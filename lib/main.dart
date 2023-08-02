@@ -1,29 +1,28 @@
 
 
 void main() {
-
   String Name = "Jonny";
   int Id = 212472;
   double CGPA = 3.62;
   bool PassorFail = true;
 
-print(Name);
-print(Id);
-print(CGPA);
-print(PassorFail);
+  print(Name);
+  print(Id);
+  print(CGPA);
+  print(PassorFail);
 
-List allStudentId = [3.22, 2.88, 4.00, 3.65, 3.67];
+  List allStudentId = [3.22, 2.88, 4.00, 3.65, 3.67];
 
-print(allStudentId[2]);
+  print(allStudentId[2]);
 
-Map studentDetails = {'Name': "Johnny", 'age': 25, 'Id': 212472};
+  Map studentDetails = {'Name': "Johnny", 'age': 25, 'Id': 212472};
   print(studentDetails['Name']);
 
 
-  int plus = 45+85;
-  int minus = 45-85;
-  int multiply = 45*85;
-  double dividet = 4/2;
+  int plus = 45 + 85;
+  int minus = 45 - 85;
+  int multiply = 45 * 85;
+  double dividet = 4 / 2;
   int modulas = 87 % 30;
   print(plus);
   print(minus);
@@ -71,15 +70,16 @@ Map studentDetails = {'Name': "Johnny", 'age': 25, 'Id': 212472};
   bestFriends.add("Jack");
   bestFriends.addAll(["Mama", "Mahmud", "Shaown"]);
   bestFriends.insert(2, "Jogodish");
-  bestFriends.insertAll(3, ["Razu","Sajid","Symun"]);
-  bestFriends[10]="Jahidmama";
+  bestFriends.insertAll(3, ["Razu", "Sajid", "Symun"]);
+  bestFriends[10] = "Jahidmama";
   bestFriends.removeLast();
   bestFriends.removeAt(10);
   bestFriends.remove("Mahmud");
 
   print(bestFriends);
 
+  Set <String> MyFriendslist = {"happy", "Man", "ron", "John", "ron"};
+
+  print(MyFriendslist);
 }
-
-
 
