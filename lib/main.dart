@@ -81,5 +81,19 @@ void main() {
   Set <String> MyFriendslist = {"happy", "Man", "ron", "John", "ron"};
 
   print(MyFriendslist);
+
+  Map<int,String> Collageid = {
+    1:"Johnny",
+    2:"Jack",
+    3:"Ron",
+    4:"Adnan"
+  };
+  print(Collageid);
+  // final mapresult = Collageid.keys;
+  // final mapresult = Collageid.length;
+  // final mapresult = Collageid.remove(2);
+
+  // print(mapresult);
+  print(Collageid);
 }
 
