@@ -11,7 +11,7 @@ void main (){
   print("a = $a, b = $b");
   print("Addition: $a + $b = $additionResult");
   print("Subtraction: $a - $b = $subtractionResult");
-  print("Multiplication: $a + $b = $multiplicationResult");
-  print("Division: $a + $b = $divisionResult");
-  print("Modulus: $a + $b = $modulusResult");
+  print("Multiplication: $a * $b = $multiplicationResult");
+  print("Division: $a / $b = $divisionResult");
+  print("Modulus: $a % $b = $modulusResult");
 }
