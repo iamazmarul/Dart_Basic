@@ -45,7 +45,7 @@ class CurrentAccount extends Account {
 }
 
 void main() {
-  // Create a SavingsAccount instance
+  /// SavingsAccount instance
   var savingsAccount =
   SavingsAccount(01736757524, 5000.0, 0.05);
   print("Savings Account Balance: ${savingsAccount.balance}");
@@ -54,7 +54,7 @@ void main() {
   savingsAccount.withdraw(200.0);
   print("After Withdrawal: ${savingsAccount.balance}");
 
-  // Create a CurrentAccount instance
+  /// CurrentAccount instance
   var currentAccount =
   CurrentAccount(01988757540, 6000.0, 2000.0);
   print("\nCurrent Account Balance: ${currentAccount.balance}");
